@@ -28,7 +28,7 @@ int main()
     {
         for (coluna = 0; coluna < TAM2; coluna++)
         {
-            cout << "Digite o valor para matriz A, linha " << linha + 1 << " e coluna " << coluna + 1 << ": ";
+            cout << "Digite o valor para matriz A, linha " << linha  << " e coluna " << coluna << ": ";
             cin >> matA [linha][coluna];
         }
     }
@@ -38,7 +38,7 @@ int main()
     {
         for (coluna = 0; coluna < TAM2; coluna++)
         {
-            cout << "Digite o valor para matriz B, linha " << linha + 1 << " e coluna " << coluna + 1 << ": ";
+            cout << "Digite o valor para matriz B, linha " << linha << " e coluna " << coluna << ": ";
             cin >> matB [linha][coluna];
         }
     }
@@ -67,14 +67,14 @@ int main()
     cout << "\n Elementos linha 2 Matriz C: ";
     for(coluna = 0; coluna < TAM2; coluna++)
     {
-        cout << matC[1][coluna] << " ";
+        cout << matC[2][coluna] << " ";
     }
 
     //COUT TODOS ELEMENTOS COLUNA 3 MATRIZ C
     cout << "\n Elementos coluna 3 Matriz C: ";
     for(linha = 0; linha < TAM1; linha++)
     {
-        cout << matC[linha][2] << " ";
+        cout << matC[linha][3] << " ";
     }
     
     return 0;
