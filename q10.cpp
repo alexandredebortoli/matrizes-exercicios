@@ -21,7 +21,7 @@ int main()
     int matA [TAM1][TAM2];
     int matB [TAM1][TAM2];
     int matC [TAM1][TAM2];
-    int linha, coluna, soma;
+    int linha, coluna;
 
     //PREENCHENDO A MATRIZ A
     for (linha = 0; linha < TAM1; linha++)
@@ -48,9 +48,7 @@ int main()
     {
         for (coluna = 0; coluna < TAM2; coluna++)
         {
-            soma = matA[linha][coluna] + matB[linha][coluna];
-            matC[linha][coluna] = soma;
-            soma = 0;
+            matC[linha][coluna] = matA[linha][coluna] + matB[linha][coluna];
         }
     }
 
