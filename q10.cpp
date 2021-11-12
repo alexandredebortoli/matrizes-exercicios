@@ -54,7 +54,8 @@ int main()
         }
     }
 
-    cout << endl;
+    //COUT MATRIZ C
+    cout << endl << "Matriz C:" << endl;
     for (linha = 0; linha < TAM1; linha++)
     {
         for (coluna = 0; coluna < TAM2; coluna++)
